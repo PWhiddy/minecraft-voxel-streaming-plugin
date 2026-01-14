@@ -1,0 +1,6 @@
+name: VoxelWebSocket
+version: 1.0
+main: com.example.voxelserver.VoxelWebSocketPlugin
+api-version: 1.20
+author: YourName
+description: WebSocket server for bulk voxel updates
