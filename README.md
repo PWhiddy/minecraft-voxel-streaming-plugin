@@ -7,7 +7,12 @@ By default listens for websocket messages on port 8887. This can be changed in t
 A pre-built jar is included, but to build yourself or build modified version:   
 ```mvn package```    
 Then place the built jar in target to your papermc plugins folder
-   
+
+## Message format
+
+To update blocks, send json messages in the following format.
+"data" is b64 encoded bytes, where each byte is a value that is an index for a material in the palette defined in the same message.
+
 ```json
 {
   "type": "compressedVoxels",
@@ -28,7 +33,7 @@ Then place the built jar in target to your papermc plugins folder
 }
 ```
 
-Which can be generated for example by the following python program:
+Here is an example python program which generates the above json message:
 
 ```python
 import base64
