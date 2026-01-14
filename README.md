@@ -1,4 +1,4 @@
-# voxel plugin
+# papermc voxel streaming plugin
 
 <img src="/demo.jpg?raw=true" width="512">
 
