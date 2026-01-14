@@ -2,6 +2,8 @@
 
 <img src="/demo.jpg?raw=true" width="512">
 
+Example by [torinmb](https://github.com/torinmb)
+
 By default listens for websocket messages on port 8887. This can be changed in the src java file.
   
 A pre-built jar is included, but to build yourself or build modified version:   
